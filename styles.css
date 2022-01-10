@@ -1,0 +1,70 @@
+body {
+    background: #35654d;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px; 
+}
+
+.card {
+    height: 28em;
+    width: 20em;
+    background-color: white;
+    border-radius: 1em;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+    position: relative;
+    
+    
+}
+
+.card p {
+    font: 150px/440px Times New Roman, serif;
+    text-align: center;
+    margin: auto;
+    
+    
+}
+
+.generateCard {
+    width: 15em;
+    height: 3em;
+    border-radius: 5px;
+    background-color: #0c82b1;
+    color: white;
+    border: none;
+    box-shadow: 1px 1px #5f5e5e78;
+    font-size: 20px;
+    position: relative;
+    left: 10px;
+    margin-top: .5em;
+}
+
+.generateCard:hover {
+    transition-duration: 0.4s;
+    background-color: #2489cc;
+    cursor: pointer;
+}
+
+#suitTop {
+    font-size: 100px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    
+   
+}
+
+#suitBottom{
+    transform: rotate(180deg);
+    font-size: 100px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.redSuit{
+    color: red;
+}
+ 
